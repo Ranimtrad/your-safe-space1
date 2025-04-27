@@ -1,0 +1,100 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  text-align: center;
+}
+
+button {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #ff1493;
+}
+
+/* Welcome Page Styles */
+.welcome-image {
+  width: 200px;  /* Resize image to fit properly */
+  height: auto;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+h1 {
+  font-size: 2em;
+  color: #ff69b4;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.feeling-box {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+/* Stickers */
+.sticker {
+  position: absolute;
+  width: 80px;
+  height: auto;
+  opacity: 0.8;
+}
+
+/* Home Page Styles */
+#feelingsContainer {
+  margin-top: 50px;
+}
+
+.feeling-item {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px auto;
+  width: 80%;
+  border: 1px solid #ddd;
+}
+
+.comment-box {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.delete-button {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.delete-button:hover {
+  background-color: #cc0000;
+}
+
